@@ -1,3 +1,3 @@
-# reason-actions
+# reason-functions
 
-Demo repo for testing netlify actions
+Demo repo for testing netlify functions
