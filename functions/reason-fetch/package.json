@@ -1,7 +1,7 @@
 {
   "name": "reason-fetch",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "reason-fetch.js",
   "license": "MIT",
   "dependencies": {
     "bs-fetch": "^0.5.0",
