@@ -1,0 +1,17 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/drewwyatt/Projects/reason-functions/node_modules/bs-platform/lib/bsppx.exe -bs-jsx 3'
+S /Users/drewwyatt/Projects/reason-functions/node_modules/bs-platform/lib/ocaml
+B /Users/drewwyatt/Projects/reason-functions/node_modules/bs-platform/lib/ocaml
+FLG -nostdlib -color always
+FLG -w -30-40+6+7+27+32..39+44+45+101
+S /Users/drewwyatt/Projects/reason-functions/node_modules/bs-fetch/lib/ocaml
+B /Users/drewwyatt/Projects/reason-functions/node_modules/bs-fetch/lib/ocaml
+S /Users/drewwyatt/Projects/reason-functions/node_modules/reason-react/lib/ocaml
+B /Users/drewwyatt/Projects/reason-functions/node_modules/reason-react/lib/ocaml
+S bindings
+B lib/bs/bindings
+S functions/reason-fetch
+B lib/bs/functions/reason-fetch
+S src
+B lib/bs/src
+####BSB GENERATED: NO EDIT}
