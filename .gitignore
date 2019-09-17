@@ -63,4 +63,4 @@ typings/
 .netlify
 lib
 *.bs.js
-build
+dist

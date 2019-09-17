@@ -9,7 +9,7 @@
       "subdirs" : true
     },
     {
-      "dir" : "functions/reason-fetch",
+      "dir" : "functions",
       "subdirs" : true
     },
     "bindings"

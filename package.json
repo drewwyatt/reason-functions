@@ -7,13 +7,13 @@
   "private": true,
   "workspaces": ["functions/*"],
   "scripts": {
-    "build": "bsb -make-world && yarn webpack:production",
+    "build": "bsb -make-world && yarn bundle:app",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack -w",
-    "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "bundle:app": "webpack -p --config=webpack/app.config.js",
+    "bundle:functions": "webpack -p --config=webpack/functions.config.js",
+    "server": "webpack-dev-server --config=webpack/app.config.js"
   },
   "devDependencies": {
     "bs-platform": "^5.0.6",
