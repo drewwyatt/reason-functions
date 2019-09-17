@@ -1,12 +1,11 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const outputDir = path.join(__dirname, 'build/');
 
-const isProd = process.env.NODE_ENV === 'production';
+const rootDir = path.join(__dirname, '..');
+const outputDir = path.join(rootDir, 'dist')
 
 module.exports = {
-  entry: './src/Index.bs.js',
-  mode: isProd ? 'production' : 'development',
+  entry: path.join(rootDir, 'src/Index.bs.js'),
   output: {
     path: outputDir,
     filename: 'Index.js'
@@ -19,7 +18,7 @@ module.exports = {
   ],
   devServer: {
     compress: true,
-    contentBase: outputDir,
+    contentBase: rootDir,
     port: process.env.PORT || 8000,
     historyApiFallback: true
   }
